@@ -106,13 +106,13 @@ endif::[]
 
 <1> Substitute your Kibana and Elasticsearch hosts and ports.
 <2> If you are using the hosted {ess} in {ecloud}, replace
-the `-E output.elasticsearch.hosts` line with the Cloud ID and elastic password
+the `-E output.elasticsearch.hosts` line with the Cloud ID and elastic 
 using this syntax:
 
 [source,shell]
 --------------------------------------------
 -E cloud.id=<Cloud ID from Elasticsearch Service> \
--E cloud.auth=elastic:<elastic password>
+-E cloud.auth=username:<elastic password>
 --------------------------------------------
 
 endif::apm-server[]
